@@ -1,0 +1,29 @@
+Step 1: Ensure Node and Bower are installed with 'node -v' & 'bower -v'
+  Step 1.1: If they're not 'brew install node' & 'npm install -g bower'
+
+Step 2: Make a new directory.
+  Step 2.1: Run 'bower init' in the new directory to initialize Bower
+  Step 2.2: Choosing defaults for each of the options works fine.
+
+Step 3: Install your most basic packages (add them to your bower.json file):
+  Step 3.1: 'bower install jquery --save', installs jquery for dynamic page changes.
+  Step 3.2: 'bower install bootstrap --save', installs bootstrap for page styling.
+  Step 3.3: 'bower install angular --save', installs angular in your project for the frontend framework.
+  Step 3.4: 'bower install angular-resource --save', allows for the ability for angular to interact with RESTful server-side data
+    N.B: The --save is simply saving to your bower.json file
+
+Step 4: Add a .gitignore file
+  Step 4.1: Add 'bower_componants' to the file.
+
+Step 5: Add a HTML file to the project tree (convetion says it should be named 'views/index.html').
+
+Step 6: Create the Angular module
+  Step 6.1: Create a new file 'js/app.js'
+  Step 6.2: In the new file, create a new application with 'var variableName = angular.module('applicationName', []);'
+  Step 6.3: Include ngResource in the empty array, this pulls in 'angular-resource' from the bower.json file and allows for interaction
+            with RESTful resources (HTTPS).
+  Step 6.4: Include the app.js file a a source file in your html file with '<script src="js/app.js"></script>'.
+  Step 6.5: Finally wire up the HTML file with the Angular app. This is done by adding to the end of the html opening tag <html lang="en"
+            ng-app="GitUserSearch">
+
+Step 7: Setting up the test environment
