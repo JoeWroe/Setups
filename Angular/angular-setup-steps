@@ -27,3 +27,12 @@ Step 6: Create the Angular module
             ng-app="GitUserSearch">
 
 Step 7: Setting up the test environment
+  Step 7.1: Boilerplate with 'bower install angular-mocks --save-dev' & 'bower install angular-route --save-dev'.
+  Step 7.2: Setup package.json for your node packages with 'npm init', you can press return on each argument to default it.
+  Step 7.3: Add 'node_modules to .gitignore'.
+  Step 7.4: Install necessary Node packages with 'npm install Karma --save-dev', 'npm install karma-jasmine karma-chrome-launcher
+            karma-phantomjs-launcher --save-dev' & 'npm install -g karma-cli'. This adds the dependancies for the karma test suite
+            to your package.json file.
+  Step 7.5: Run either 'karma init' and answer the questions, or copy and paste the 'karma.config.js' file in this folder. This
+            configures your karma.
+  Step 7.6: Fire up your tests with 'karma start test/karma.conf.js' (Note: this will fail if you've not written any tests!).
