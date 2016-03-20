@@ -1,0 +1,21 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/JoeWroe/Setups",
+  "authors": [
+    "JoeWroe <joe_wroe@icloud.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
