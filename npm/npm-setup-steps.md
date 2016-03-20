@@ -1,4 +1,4 @@
-:notebook: #Node Package Manager (npm) :notebook:
+#:notebook: Node Package Manager (npm) :notebook:
 
 **npm (node package manager), comes as part of your installation of node. Installing node will also install npm for you.**
 
