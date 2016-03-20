@@ -1,5 +1,6 @@
 Step 1: Ensure Node and Bower are installed with 'node -v' & 'bower -v'
-  Step 1.1: If they're not 'brew install node' & 'npm install -g bower'
+  Step 1.1: If they're not 'brew install node' & 'npm install -g bower', see the other setup walkthroughs in this repo for more info
+            on these
 
 Step 2: Make a new directory.
   Step 2.1: Run 'bower init' in the new directory to initialize Bower
