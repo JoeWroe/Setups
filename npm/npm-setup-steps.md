@@ -1,7 +1,9 @@
-npm (node package manager), comes as part of your installation of node. Installing node will also install npm for you.
+#Node Package Manager (npm)
+
+**npm (node package manager), comes as part of your installation of node. Installing node will also install npm for you.
 
 WARNING: Installing node if can cause issues if you already have node version manager installed (n, nvm or nodenv).
-         Running any of those three names followed by -v will let you know if its already installed.
+         Running any of those three names followed by -v will let you know if its already installed.**
 
 ```
 STEP 1: 'brew install node', (not always necessary, read the warning above!)
@@ -17,20 +19,20 @@ STEP 2: 'npm init', will create a package.json file in your project. This comman
 STEP 3: The first bit of understanding for this file is what goes on under the 'scripts' heading, this section defines a collection of
         scripts that can be run with the npm command. Currently it should just contain the line:
 
-            ```
+
             "test": "echo \"Error: no test specified\" && exit 1"
-            ```
+
 
         This defines what happens when you run the command 'npm test', run it now and see what it outputs.
 
-            ```
+
             > npm-setup@1.0.0 test /Users/Joe/Projects/setups/npm
             > echo "Error: no test specified" && exit 1
 
             Error: no test specified
             npm ERR! Test failed.  See above for more details.
             npm WARN Local package.json exists, but node_modules missing, did you mean to install?
-            ```
+
 
         As testing is added, this will be updated.
 ```
