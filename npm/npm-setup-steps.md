@@ -6,14 +6,14 @@
 **then requires it (or becomes dependent on it), in order to run. The npm file defines that code**
 **and pulls it into your project.**
 
-**npm manages you BACKEND dependencies**
+**npm manages you _BACKEND_ dependencies**
 
 ---
 
 **npm (node package manager), comes as part of your installation of node. Installing node will also**
 **install npm for you.**
 
-**WARNING: Installing node if can cause issues if you already have node version manager installed**
+**WARNING: Installing node can cause issues if you already have node version manager installed**
 **(n, nvm or nodenv). Running any of those three names followed by -v will let you know if its already**
 **installed.**
 
