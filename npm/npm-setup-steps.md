@@ -1,9 +1,9 @@
-#Node Package Manager (npm)
+:notebook: #Node Package Manager (npm) :notebook:
 
-**npm (node package manager), comes as part of your installation of node. Installing node will also install npm for you.
+**npm (node package manager), comes as part of your installation of node. Installing node will also install npm for you.**
 
-WARNING: Installing node if can cause issues if you already have node version manager installed (n, nvm or nodenv).
-         Running any of those three names followed by -v will let you know if its already installed.**
+**WARNING: Installing node if can cause issues if you already have node version manager installed (n, nvm or nodenv).**
+         **Running any of those three names followed by -v will let you know if its already installed.**
 
 ```
 STEP 1: 'brew install node', (not always necessary, read the warning above!)
