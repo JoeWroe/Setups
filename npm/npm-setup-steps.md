@@ -1,11 +1,23 @@
 #:notebook: Node Package Manager (npm) :notebook:
 
+**npm is a package manager, designed to allow you to add further functionality to your project.**
+**Similar to 'ruby gems', files are added to your 'package.json' file that add 'dependencies' to**
+**your project. In short, the functionality is added through code written elsewhere, your project**
+**then requires it (or becomes dependent on it), in order to run. The npm file defines that code**
+**and pulls it into your project.**
+
+**npm manages you BACKEND dependencies**
+
+---
+
 **npm (node package manager), comes as part of your installation of node. Installing node will also**
 **install npm for you.**
 
 **WARNING: Installing node if can cause issues if you already have node version manager installed**
 **(n, nvm or nodenv). Running any of those three names followed by -v will let you know if its already**
 **installed.**
+
+---
 
 ```
 STEP 1: 'brew install node', (not always necessary, read the warning above!)
