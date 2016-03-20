@@ -3,12 +3,17 @@ npm (node package manager), comes as part of your installation of node. Installi
 WARNING: Installing node if can cause issues if you already have node version manager installed (n, nvm or nodenv).
          Running any of those three names followed by -v will let you know if its already installed.
 
+```
 STEP 1: 'brew install node', (not always necessary, read the warning above!)
+```
 
+```
 STEP 2: 'npm init', will create a package.json file in your project. This command will run you through a number of questions, it is
         possible to hit enter on all of these questions to get your project going quickly. See the package.json file in this folder for
         an example of what it should look like.
+```
 
+```
 STEP 3: The first bit of understanding for this file is what goes on under the 'scripts' heading, this section defines a collection of
         scripts that can be run with the npm command. Currently it should just contain the line:
 
@@ -28,7 +33,9 @@ STEP 3: The first bit of understanding for this file is what goes on under the '
             ```
 
         As testing is added, this will be updated.
+```
 
+```
 STEP 4.1: Being a 'package manager', you will need to be able to install packages. To do this, find the package you want (hapi has been
         used in this example), and run 'npm install hapi --save'. This tells npm to install the package hapi into your project, save
         (--save) it inside a folder called 'node_modules' and update your package.json file.
@@ -40,6 +47,9 @@ STEP 4.1: Being a 'package manager', you will need to be able to install package
     STEP 4.3: As a general rule, you can also use 'npm install [a package] -g' in order to install it globally on your machine. This will
               allow you to run it from elsewhere. It's important you still use the '--save' or '--save-dev' to make sure it is included
               in your 'package.json'. Other developers cloning your repo will now be able to see the necessary dependancies they need.
+```
 
+```
 STEP 5: Finally, adding your node_modules file to your .gitignore file is good practice and convention. This stops you from clogging up
         a git repo with these files.
+```
