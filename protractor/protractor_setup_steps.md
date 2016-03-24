@@ -16,5 +16,6 @@ STEP 2: Run 'webdriver-manager update', you will see the Selenium Standalone Ser
 ```
 
 ```
-STEP 3: Run 'npm init' to setup your package.json (Protractor is testing Angular, so is Frontend), then run 'npm install protractor --save'.
+STEP 3: Run 'npm init' to setup your package.json (Protractor is testing Angular, so is Frontend), then run 'npm
+        install protractor --save' to add your required node modules.
 ```
